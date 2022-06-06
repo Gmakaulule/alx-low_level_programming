@@ -19,5 +19,5 @@ int main(void)
 	}
 	putchar(z);
 
-	return (67);
+	return (0);
 }
