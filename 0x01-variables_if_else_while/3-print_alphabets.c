@@ -8,16 +8,19 @@
 int main(void)
 
 {
-	int x = 'a';
-	int z = toupper(x);
+	int x;
+	int z;
 
 
-		while(x <= 'z')
+		for (x = 'a';x <= 'z';x++)
 		{
 		putchar(x);
+		}
+		
+		for (z = 'A';z <= 'Z';z++)
+		{	
 		putchar(z);
-		x++;
-	}
-	putchar('\n');
+		}
+		putchar('\n');
 		return (0);
 }
