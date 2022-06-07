@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * main - Entry pont
+ *
+ * Return : Always 0 success
+ *
+ */
+
+
+int main(void)
+{
+	printf("_putchar\n");
+
+	return (0);
+}
