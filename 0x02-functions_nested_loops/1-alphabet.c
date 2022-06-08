@@ -1,22 +1,22 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - function prototype
  *
- * Return: Always 0 (Success)
+ * desc-printsts the alphabet in lowercase.
+ *
+ * Return: Always 0.
  */
 
 void print_alphabet(void)
 {
-	int x = 'a';
+	char x;
 
-	while (x <= 'z')
+	for (x = 'a'; x <= 'z'; x++)
 	{
-
-	_putchar(x);
-	x++;
+		_putchar(x);
 	}
-	_putchar('\n');
-	return (0);
+	{
+		_putchar('\n');
+	}
 }
