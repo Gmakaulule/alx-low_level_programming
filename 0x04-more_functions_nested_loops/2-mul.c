@@ -14,9 +14,9 @@
 int mul(int a, int b)
 
 {
-	int x, z, product
+	int product
 
-	product = (x * z)
+	product = (a * b)
 
 	return (product)
 
