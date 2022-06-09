@@ -17,14 +17,14 @@ int _isupper(int c)
 	{
 		_putchar(c);
 		_putchar(':');
-		_putchar(1)
+		_putchar('1')
 
 	}
 		else if (c >= 97 || c <= 122)
 		{
 		_putchar(c);
 		_putchar(':');
-		_putchar(0)
+		_putchar('0')
 		
 
 		}
