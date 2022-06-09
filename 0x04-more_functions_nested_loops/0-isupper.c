@@ -16,14 +16,13 @@ int _isupper(int c)
 	int x;
 
 	if (c >= 65 && c <= 90)
-	{		
-	x = 1;
+	{
+		x = 1;
 	}
 	else
 	{
-		x = 0;
-
+	x = 0;
 	}
 
-		return (x);
+	return (x);
 }
