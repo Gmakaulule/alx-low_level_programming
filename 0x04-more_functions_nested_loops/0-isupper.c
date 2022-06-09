@@ -17,7 +17,7 @@ int _isupper(int c)
 	{
 		_putchar(c);
 		_putchar(':');
-		return ('1');
+		return (1);
 
 	}
 		else if (c >= 97 || c <= 122)
