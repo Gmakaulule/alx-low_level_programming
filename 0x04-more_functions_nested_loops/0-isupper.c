@@ -13,22 +13,17 @@
 int _isupper(int c)
 
 {
-	if (c >= 65 || c <= 90)
+	int x;
+
+	if (c >= 65 && c <= 90)
+	{		
+	x = 1;
+	}
+	else
 	{
-		_putchar(c);
-		_putchar(':');
-		_putchar('1')
+		x = 0;
 
 	}
-		else if (c >= 97 || c <= 122)
-		{
-		_putchar(c);
-		_putchar(':');
-		_putchar('0')
-		
 
-		}
-
-	_putchar('\n');
-
-	return (0); }
+		return (x);
+}
