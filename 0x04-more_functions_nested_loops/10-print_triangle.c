@@ -19,9 +19,9 @@ void print_triangle(int size)
 	{
 		r = size;
 
-		while (j > 0)
+		while (r > 0)
 		{
-			if (r <= i)
+			if (r <= x)
 			{
 				_putchar('#');
 			}
