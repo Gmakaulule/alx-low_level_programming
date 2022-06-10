@@ -1,20 +1,27 @@
 #include "main.h"
 
 /**
-* print_numbers - prints numbers from 0 to 9
-* Return:0
+* print_most_numbers - prints numbers from '0' to '9'
+*
+* Return:Return void`
+*
 */
 
 	void print_most_numbers(void)
 	{
-	char x = 0;
 
-	while (x <= 9) && (x != 2) && (x !=4)
+		char x = 0;
+
+	while (x <= 9)
+
 	{
-		_putchar(x + '0');
-		x++;
+	if (x != 4 && x != 2)
+	{
+	_putchar(x + '0');
+	}
+	x++;
+	}
+
+	_putchar('\n');
 
 	}
-		_putchar('\n');
-
-}
