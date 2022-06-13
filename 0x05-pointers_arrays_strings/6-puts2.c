@@ -3,40 +3,25 @@
 /**
  * puts2 - print every other charecter in a string
  *
- * _Strlen - return the lengle of a string
  * Return:the index lenth of array
  * @str: it is the string to be printed
  */
 
 
-int _strlen(char *str)
+void puts2(char *str)
 
 {
 	int x = 0;
+	int i;
 
 	while (str[x] != '\0')
 	{
 		x++;
-
 	}
 
-		return (x);
-
-}
-
-
-
-void puts2(char *str)
-
-{
-	int x;
-	int i;
-
-	x = _strlen(str);
-
 	for (i = 0; i < x; i += 2)
-
 	{
+
 		_putchar(str[i]);
 	}
 
