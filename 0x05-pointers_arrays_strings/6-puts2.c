@@ -3,7 +3,7 @@
 /**
  * puts2 - print every other charecter in a string
  *
- * _strlen - return the lengle of a string
+ * _Strlen - return the lengle of a string
  * Return:the index lenth of array
  * @str: it is the string to be printed
  */
@@ -39,6 +39,8 @@ void puts2(char *str)
 	{
 		_putchar(str[i]);
 	}
-		putchar('\n')
+
+
+	_putchar('\n');
 }
 
