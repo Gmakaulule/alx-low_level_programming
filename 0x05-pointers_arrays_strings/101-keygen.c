@@ -11,9 +11,10 @@
 
 int main(void)
 
-{
+{	int i;
+
 	srand(time(0));
-	int i;
+
     for(i = 0; i<4; i++)
         printf(" %d ", rand());
 }
