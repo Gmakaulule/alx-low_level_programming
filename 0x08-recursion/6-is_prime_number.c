@@ -14,7 +14,7 @@ int prime(int x, int r)
 		return (1);
 	else if (x % r == 0)
 		return (0);
-	return (prime2(x, r + 1));
+	return (prime(x, r + 1));
 }
 /**
  * is_prime_number - checks if a number is prime
@@ -25,5 +25,5 @@ int is_prime_number(int n)
 {
 	if (n <= 1)
 		return (0);
-	return (prime2(n, 2));
+	return (prime(n, 2));
 }
