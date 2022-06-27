@@ -25,7 +25,7 @@ x = (char *)malloc(size * sizeof(char));
 
 	else if (x == NULL)
 	{
-		return ('\0');
+		return (x);
 	}
 
 	for (i = 0; i < size; i++)
