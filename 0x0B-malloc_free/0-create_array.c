@@ -21,6 +21,10 @@ char *create_array(unsigned int size, char c)
 {
 	return ('\0');
 }
+	if (x == NULL)
+	{
+		return ('\0');
+	}
 	x = (char *)malloc(size * sizeof(char));
 
 	for (i = 0; i < size; i++)
