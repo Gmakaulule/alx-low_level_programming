@@ -4,7 +4,7 @@
 /**
  * free_grid - free two dimetional grid
  * @grid : input two dimettinal array
- * @height: hight length 
+ * @height: hight length
  */
 void free_grid(int **grid, int height)
 {
