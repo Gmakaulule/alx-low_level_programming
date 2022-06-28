@@ -45,5 +45,7 @@ int _sqrt_recursion(int n);
 int find_sqrt(int x, int y);
 int is_prime_number(int n);
 char *create_array(unsigned int size, char c);
+char *_strdup(char *str);
+char *_strdup(char *str);
 
 #endif /* MAIN_H */
