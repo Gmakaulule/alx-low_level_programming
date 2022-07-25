@@ -5,8 +5,7 @@
 /**
  * read_textfile - read files
  * @filename: is the file to read
- * @letters: number of letters 
- *
+ * @letters: number of letters
  * Return: 0 if it fails or actual number of letters it could
  *         read and print
 */
@@ -19,7 +18,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (filename == NULL)
 		return (0);
 
-	file = open(filename, O_RDONLY); 
+	file = open(filename, O_RDONLY);
 
 	if (file == -1)
 		return (0);
@@ -31,8 +30,8 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 
-	r_check = read(file, buffer, letters); 
-	if (r_check == -1) 
+	r_check = read(file, buffer, letters);
+	if (r_check == -1)
 		return (0);
 
 	count = write(STDOUT_FILENO, buffer, r_check);
